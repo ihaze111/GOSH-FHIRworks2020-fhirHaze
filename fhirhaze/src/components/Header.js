@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-
+// This is a function that creates the header to the web-app
 function Header(){
     return(
         <Navbar bg="dark" variant="dark" expand="lg">

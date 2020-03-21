@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import Chart from "chart.js";
 let myHorizontalBarGraph;
 
+//This graph creates the horizontal bar graph to visualise age
+
+
 //--Chart Style Options--//
 Chart.defaults.global.defaultFontFamily = "'PT Sans', sans-serif"
 Chart.defaults.global.legend.display = false;

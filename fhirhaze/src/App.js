@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from './views/Home';
 import About from './views/About';
 
+// This is the main part of the app. It routes to various pages of the web-app
 class App extends React.Component{
   render(){
     return (

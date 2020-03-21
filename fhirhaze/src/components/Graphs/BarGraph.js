@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Chart from "chart.js";
 let myBarGraph;
 
+//This class creates a bar graph for the marital status graph
+
 //--Chart Style Options--//
 Chart.defaults.global.defaultFontFamily = "'PT Sans', sans-serif"
 Chart.defaults.global.legend.display = false;

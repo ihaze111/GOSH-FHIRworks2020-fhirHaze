@@ -1,4 +1,20 @@
+# About This Project
+- This project is entirely done by Muhammad Haziq Shahrin Al Johary (Haze Al Johary)
+- This project is for the FHIRworks Hackathon 2020
+
 # Deployment Guide
+
+## Important Note
+- In this repository, there are 2 main folders : The api server folder and the web-app folder
+- Please run the api server first by following the instructions below, or simply by running the command 'cd dotnet-azure-fhir-web-api' and then run 'dotnet run'. (Make sure the server is running when using the web-app!)
+- Next step is to locally deploy the web-app. Simply open a new terminal in the root file
+- Then, go to the fhirHaze web-app folder by using the command 'cd fhirHaze'
+- Before running the web-app, we have to install the dependencies first as this web-app uses some dependencies on top of the Node.js framework. All of the dependencies can be found in package.json file.Simply do this by running the command 'npm install'
+- Then simply run 'npm start' to deploy the web-app locally
+- On your browser, go to http://localhost:3000/
+
+## Remarks
+- Everything below is taken from https://github.com/goshdrive/FHIRworks_2020 as part of the FHIRworks hackathon
 
 ## Install Visual Studio Code
 

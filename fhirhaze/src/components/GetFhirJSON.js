@@ -1,6 +1,6 @@
 import axios from "axios";
 
-
+//This function ansynchronously pulls the api
 async function getFhirJSON(){
     const baseURL = "https://localhost:5001/api/";
     let option = "";

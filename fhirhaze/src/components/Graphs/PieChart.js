@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Chart from "chart.js";
 let myPieChart;
 
+//This class is to create pie chart to visualise patients' gender
+
 //--Chart Style Options--//
 Chart.defaults.global.defaultFontFamily = "'PT Sans', sans-serif"
 Chart.defaults.global.legend.display = false;

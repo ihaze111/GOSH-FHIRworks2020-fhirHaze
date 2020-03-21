@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Table from 'react-bootstrap/Table';
 
+// This is the about page file
 class About extends React.Component{
     render(){
         return(

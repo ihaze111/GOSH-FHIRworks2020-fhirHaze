@@ -1,3 +1,4 @@
+// This function exports json to xml and downloads it. It uses the library 'xml-js'
 export default function convert2xml(jsonText,fileName){
     var convert = require('xml-js');
     var json = jsonText;

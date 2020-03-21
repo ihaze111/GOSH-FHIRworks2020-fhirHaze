@@ -6,9 +6,11 @@ import HorizontalBarGraph from "../components/Graphs/HorizontalBarGraph";
 import { ExportToCSV } from "../components/ExportToCSV";
 import Spinner from "react-bootstrap/Spinner";
 import Button from "react-bootstrap/Button";
-import json2xml from "../components/ExportToXML";
 import convert2xml from "../components/ExportToXML";
 
+//A vital part of the app, this file provides working components to the web-app for it to function
+
+// Below creates a class to pull and extract the patients' gender from the api
 class Gender extends React.Component{
     
     constructor(props){
@@ -105,6 +107,7 @@ export function PatientsGender(){
     return <div><Gender/></div>
 }
 
+// Below creates a class to pull and extract the patients' marital status from the api
 class MaritalStatus extends React.Component{
     
     constructor(props){
@@ -208,6 +211,7 @@ export function PatientsStatus(){
     return <div><MaritalStatus/></div>
 }
 
+// Below creates a class to pull and extract the patients' age from the api
 class Age extends React.Component{
     
     constructor(props){

@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Tab from 'react-bootstrap/Tab';
 import { PatientsGender, PatientsStatus, PatientsAge } from './Components';
 
+//This is the home page, which visualises the data
 class Home extends React.Component{
     render(){
         return(
